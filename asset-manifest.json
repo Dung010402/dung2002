@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/dung2002/static/css/main.f855e6bc.css",
-    "main.js": "/dung2002/static/js/main.f91cd067.js",
+    "main.css": "/dung2002/static/css/main.1727dc76.css",
+    "main.js": "/dung2002/static/js/main.2c32553f.js",
     "static/js/453.d8c0ccc9.chunk.js": "/dung2002/static/js/453.d8c0ccc9.chunk.js",
-    "static/media/logo.svg": "/dung2002/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/image1 1.png": "/dung2002/static/media/image1 1.b2959851a34a6ae2ec8d.png",
+    "static/media/AvenirNextLTPro-Bold.otf": "/dung2002/static/media/AvenirNextLTPro-Bold.711a4eb654bf1139f123.otf",
+    "static/media/image4.png": "/dung2002/static/media/image4.c3550eb35e587b49a589.png",
+    "static/media/image6 1.png": "/dung2002/static/media/image6 1.ba1a4353826ddb729b71.png",
+    "static/media/image5 1.png": "/dung2002/static/media/image5 1.229d83bb2d7a99955731.png",
+    "static/media/image3 1.png": "/dung2002/static/media/image3 1.0ffd512cacda8d588f46.png",
     "index.html": "/dung2002/index.html",
-    "main.f855e6bc.css.map": "/dung2002/static/css/main.f855e6bc.css.map",
-    "main.f91cd067.js.map": "/dung2002/static/js/main.f91cd067.js.map",
+    "main.1727dc76.css.map": "/dung2002/static/css/main.1727dc76.css.map",
+    "main.2c32553f.js.map": "/dung2002/static/js/main.2c32553f.js.map",
     "453.d8c0ccc9.chunk.js.map": "/dung2002/static/js/453.d8c0ccc9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.f91cd067.js"
+    "static/css/main.1727dc76.css",
+    "static/js/main.2c32553f.js"
   ]
 }
