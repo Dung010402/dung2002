@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/dung2002/static/css/main.1727dc76.css",
-    "main.js": "/dung2002/static/js/main.2c32553f.js",
+    "main.css": "/dung2002/static/css/main.f79c99f8.css",
+    "main.js": "/dung2002/static/js/main.cffe3121.js",
     "static/js/453.d8c0ccc9.chunk.js": "/dung2002/static/js/453.d8c0ccc9.chunk.js",
+    "static/media/AvertaDemoPE-ExtraboldItalic.ttf": "/dung2002/static/media/AvertaDemoPE-ExtraboldItalic.3f5a01e12bfc814f1301.ttf",
+    "static/media/AvertaDemoPE-Regular.ttf": "/dung2002/static/media/AvertaDemoPE-Regular.4494c552079126a062b9.ttf",
     "static/media/image1 1.png": "/dung2002/static/media/image1 1.b2959851a34a6ae2ec8d.png",
-    "static/media/AvenirNextLTPro-Bold.otf": "/dung2002/static/media/AvenirNextLTPro-Bold.711a4eb654bf1139f123.otf",
     "static/media/image4.png": "/dung2002/static/media/image4.c3550eb35e587b49a589.png",
     "static/media/image6 1.png": "/dung2002/static/media/image6 1.ba1a4353826ddb729b71.png",
     "static/media/image5 1.png": "/dung2002/static/media/image5 1.229d83bb2d7a99955731.png",
     "static/media/image3 1.png": "/dung2002/static/media/image3 1.0ffd512cacda8d588f46.png",
     "index.html": "/dung2002/index.html",
-    "main.1727dc76.css.map": "/dung2002/static/css/main.1727dc76.css.map",
-    "main.2c32553f.js.map": "/dung2002/static/js/main.2c32553f.js.map",
+    "main.f79c99f8.css.map": "/dung2002/static/css/main.f79c99f8.css.map",
+    "main.cffe3121.js.map": "/dung2002/static/js/main.cffe3121.js.map",
     "453.d8c0ccc9.chunk.js.map": "/dung2002/static/js/453.d8c0ccc9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1727dc76.css",
-    "static/js/main.2c32553f.js"
+    "static/css/main.f79c99f8.css",
+    "static/js/main.cffe3121.js"
   ]
 }
