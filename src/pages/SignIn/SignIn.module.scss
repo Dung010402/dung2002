@@ -1,0 +1,80 @@
+.wrapper{
+    display: flex;
+    height: 797px;
+}
+
+.logo{
+    position: absolute;
+    display: flex;
+    top: 100px;
+    left: 240px;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 48.7px;
+}
+
+.logo-violet{
+    width: 19.88px;
+    height: 19.88px;
+    background-color: #9C69E2;
+    border-radius: 20px;
+}
+
+.logo-pink{
+    width: 19.88px;
+    height: 34.78px;
+    background: #F063B8;
+    border-radius: 20px;  
+}
+
+.inner{
+    display: inline-block;
+    margin: auto;
+}
+.title{
+    text-align: center;
+    height: 117px;
+    color: rgb(0, 0, 0);
+    font-family: Avenir;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 102.4px;
+    letter-spacing: 0.005em;
+}
+
+.name{
+    color: rgba(0, 0, 0, 1);
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: 0.005em;
+    text-align: left;
+}
+
+input{
+    width: 407px;
+    height: 57px;
+    margin-top: 12px;
+    margin-bottom: 46px;
+    border-radius: 6px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 413px;
+    height: 53px;
+    color: #fff;
+    font-family: Avenir;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    border-radius: 50px;
+    background: rgba(156, 105, 226, 1);
+
+}

@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Avenir";  
+  src: local("AvertaDemoPE-Regular"),
+    url("./fonts/Avenir1/AvertaDemoPE-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Avenir iT";
+  src: local("AvertaDemoPE-ExtraboldItalic"),
+    url("./fonts/Avenir1/AvertaDemoPE-ExtraboldItalic.ttf") format("truetype");
+}
+
 .App {
   text-align: center;
 }
