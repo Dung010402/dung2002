@@ -142,7 +142,7 @@ function Home() {
                 <div className={cx('vector')}></div>
             </div>
             <div className={cx('slide')}>
-                <div className={cx('slide-item')}></div>
+                <div className={cx('slide-item', 'slide-active')}></div>
                 <div className={cx('slide-item')}></div>
                 <div className={cx('slide-item')}></div>
                 <div className={cx('slide-item')}></div>
