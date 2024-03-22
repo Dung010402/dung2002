@@ -28,7 +28,8 @@ const about = [
 const help = ['Support', 'Sign up', 'Guide','Reports','Q&A']
 
 function MeHome() {
-    return ( <div className={cx("wrapper" )}>
+    return ( 
+    <div className={cx("wrapper" )}>
         <div className={cx('header')} >
           <div className={cx('header-nav')}>
                 <div className={cx('logo')} >
@@ -163,16 +164,16 @@ function MeHome() {
             </div>
             <div className={cx('footer-list')}>
                 <div className={cx('list-title')}>About</div>
-                <div>{about.map((res)=>{
+                <div>{about.map((res, index)=>{
                     return (
-                    <div className={cx('list-item')}>{res.name}</div>)
+                    <div key={index} className={cx('list-item')}>{res.name}</div>)
                     })}
                 </div>
             </div>
             <div className={cx('footer-list')}>
                 <div className={cx('list-title')}>Help</div>
-                <div>{help.map((res)=>{
-                    return (<div className={cx('list-item')}>{res}</div>)
+                <div>{help.map((res, index)=>{
+                    return (<div key={index} className={cx('list-item')}>{res}</div>)
                     })}
                 </div>
             </div>

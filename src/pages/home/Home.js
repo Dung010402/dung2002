@@ -162,16 +162,16 @@ function Home() {
             </div>
             <div className={cx('footer-list')}>
                 <div className={cx('list-title')}>About</div>
-                <div>{about.map((res)=>{
+                <div>{about.map((res, index)=>{
                     return (
-                    <div className={cx('list-item')}>{res.name}</div>)
+                    <div key={index} className={cx('list-item')}>{res.name}</div>)
                     })}
                 </div>
             </div>
             <div className={cx('footer-list')}>
                 <div className={cx('list-title')}>Help</div>
-                <div>{help.map((res)=>{
-                    return (<div className={cx('list-item')}>{res}</div>)
+                <div>{help.map((res, index)=>{
+                    return (<div key={index} className={cx('list-item')}>{res}</div>)
                     })}
                 </div>
             </div>

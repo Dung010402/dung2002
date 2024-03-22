@@ -1,20 +1,23 @@
 .wrapper{
     width: 1920px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    margin-top: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 125px;
 }
 
 .header{
     width: 1119.7px;
     height:685.71px;
-    margin-top: 48px;
 }
 
 .header-nav{
     display: flex;
-    width: 1119.7px;
-    height: 59.63px;
     justify-content: space-between;
+    height: 9%;
 }
 
 .logo{
@@ -48,8 +51,7 @@
     align-items: center;
     justify-content: center;
     color: #FFF;
-    width: 208.7px;
-    height: 60px;
+    padding: 0px 78px;
     font-family:  Avenir ;
     font-size: 16px;
     font-weight: 700;
@@ -64,11 +66,21 @@
 }
 
 .description{
+    width: 51%;
+    bottom: 7%;
     position: absolute;
-    width: 640.99px;
-    height: 461.12px;
-    top: 236.82px;
-    left: 400px;
+    height: 71%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.header-description{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 91%;
+    align-items: center;
 }
 
 .description-name{
@@ -81,11 +93,7 @@
 }
 
 .description-text{
-    width: 377.64px;
-    height: 119.25px;
-    top: 469.37px;
-    left: 400px;
-    margin-top: 50px;
+    width: 65%;
     color: rgba(75, 93, 104, 1);
     font-family: Avenir;
     font-size: 18px;
@@ -114,18 +122,15 @@
 
 .description-image{
     position: absolute;
-    width: 759.25px;
-    height: 401.49px;
-    top: 332.22px;
-    left: 760.75px;
+    right: 0px;
+    bottom: 0;
 }
 
+
 .features{
-    position: absolute;
     width: 1120px;
-    height: 1010.41px;
-    top: 898px;
-    left: 400px;
+    height:1010.41px;
+    margin-top: 164px;
 }
 
 .features-title {
@@ -165,9 +170,8 @@
 
 .features-group{
     position: relative;
-    width: 536.21px;
-    height: 382.1px;
-    margin-bottom: 20px;
+    width: 48%;
+    margin-bottom: 4%;
 }
 
 .features-group:nth-child(2) .group{
@@ -188,14 +192,6 @@
     margin-top: 72px;
 }
 
-/* .ja{
-    position: absolute;
-    transform: rotate(90deg);
-    border-radius: 45px;
-    background-color: #000;
-    border-bottom: 80px solid #fff;
-    border-right: 281px solid transparent;
-} */
 .group{
     float: right;
     height: 352.56px;
@@ -270,23 +266,21 @@
 /* testimonials */
 
 .testimonials{
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     width: 1120px;
     height: 710.27px;
-    top: 2028px;
-    margin-bottom: 88px;
+    margin-top: 120px;
     background: rgba(156, 105, 226, 1);
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 50px;
 }
 
 .testimonials-title{
-    width: 931.66px;
-    height: 52.09px;
+    width: 80%;
     font-family: Helvetica;
     color:  rgba(255, 255, 255, 1);
     font-size: 40px;
@@ -298,8 +292,8 @@
 .testimonials-group{
     z-index: 1;
     display: flex;
-    width: 931.66px;
-    height: 330.59px;
+    width: 80%;
+    height: 46%;
     border-radius: 20px;
     background: rgba(255, 255, 255, 1);
     box-shadow: 0px 20px 0px 0px #8a56db ;
@@ -308,9 +302,9 @@
 .testimonials-person{
     display: flex;
     justify-content: space-between;
+    height: 68%;
+    width: 80%;
     margin: auto;
-    width: 729.44px;
-    height: 220.39px;
   
 }
 
@@ -321,8 +315,6 @@
 }
 .testimonials-wrapper{
     margin-top: 20px;
-    width: 729.44px;
-    height: 220.39px;
 }
 
 .testimonials-name{
@@ -349,9 +341,10 @@
 }
 
 .testimonials-desr{
-    width: 345.11px;
+    width: 70%;
     height: 130.23px;
     margin-top: 20px;
+    color: rgba(75, 93, 104, 1);
     font-family: Avenir;
     font-size: 18px;
     font-weight: 400;
@@ -427,18 +420,19 @@
 }
 
 .footer{
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 1120px;
-    height: 632px;
-    top:2827px;
-    left: 400px;
+    margin-top: 90px;
+    padding-top: 100px;
+    padding-bottom: 125px;
+    border-top: 1px solid rgba(156, 105, 226, 0.3);
 }
 
 .inner-logo{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .info-name{
@@ -452,9 +446,7 @@
 }
 
 .info-address{
-    width: 335.9px;
-    height: 65.17px;
-    margin-top: 68px;
+    margin: 30px 0px;
     color: rgba(33, 35, 83, 1);
     font-family: Avenir;
     font-size: 16px;
@@ -542,7 +534,7 @@
 
 .copy-right{
     position: absolute;
-    bottom: 125px;
+    bottom: 0;
     color: rgba(33, 35, 83, 1);
     font-family: Avenir;
     font-size: 12px;
@@ -554,11 +546,11 @@
 }
 .chat{
     position: absolute;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     right: 0;
-    bottom: 125px;
     width: 60.16px;
     height: 60.16px;
     background: rgba(156, 105, 226, 0.2);
