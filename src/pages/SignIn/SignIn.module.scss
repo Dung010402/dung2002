@@ -78,3 +78,9 @@ input{
     background: rgba(156, 105, 226, 1);
 
 }
+
+@media only screen and (max-width: 46.25em) {
+    .logo{
+        left: 10px;
+    }
+}
