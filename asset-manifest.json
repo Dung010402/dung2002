@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dung2002/static/css/main.5a7cb016.css",
+    "main.css": "/dung2002/static/css/main.0235b422.css",
     "main.js": "/dung2002/static/js/main.cfd4e6e0.js",
     "static/js/453.d8c0ccc9.chunk.js": "/dung2002/static/js/453.d8c0ccc9.chunk.js",
     "static/media/AvertaDemoPE-ExtraboldItalic.ttf": "/dung2002/static/media/AvertaDemoPE-ExtraboldItalic.3f5a01e12bfc814f1301.ttf",
@@ -11,12 +11,12 @@
     "static/media/image5 1.png": "/dung2002/static/media/image5 1.229d83bb2d7a99955731.png",
     "static/media/image3 1.png": "/dung2002/static/media/image3 1.0ffd512cacda8d588f46.png",
     "index.html": "/dung2002/index.html",
-    "main.5a7cb016.css.map": "/dung2002/static/css/main.5a7cb016.css.map",
+    "main.0235b422.css.map": "/dung2002/static/css/main.0235b422.css.map",
     "main.cfd4e6e0.js.map": "/dung2002/static/js/main.cfd4e6e0.js.map",
     "453.d8c0ccc9.chunk.js.map": "/dung2002/static/js/453.d8c0ccc9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a7cb016.css",
+    "static/css/main.0235b422.css",
     "static/js/main.cfd4e6e0.js"
   ]
 }
